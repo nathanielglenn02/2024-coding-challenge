@@ -1,3 +1,6 @@
+//CODING CHALLENGE
+//DAY 1/366
+
 // CARA 1
 function grow(x){
     let result = x[0];
@@ -14,5 +17,4 @@ function grow(x){
     const result = x.reduce((acc,curr) => acc * curr, 1);
     return result;
 }
-
 console.log(grow([1,2,3,4]))
