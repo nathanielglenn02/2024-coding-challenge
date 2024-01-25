@@ -17,4 +17,7 @@ function grow(x){
     const result = x.reduce((acc,curr) => acc * curr, 1);
     return result;
 }
+
+return x.reduce((acc,curr) => acc * curr, 1);
+
 console.log(grow([1,2,3,4]))
