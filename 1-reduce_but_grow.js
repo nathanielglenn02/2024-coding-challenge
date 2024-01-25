@@ -2,7 +2,8 @@
 //DAY 1/366
 
 // CARA 1
-function grow(x){
+function grow(x)
+{
     let result = x[0];
     for(let i = 1 ; i < x.length; i++)
     {
