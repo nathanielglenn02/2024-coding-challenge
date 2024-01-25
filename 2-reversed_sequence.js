@@ -10,6 +10,6 @@ const reverseSeq = (n) => {
   };
 
 
-// const reverseSeq = length => Array.from({length}, () => length--);
+  // const reverseSeq = length => Array.from({length}, () => length--);
 
 console.log(reverseSeq(6));
