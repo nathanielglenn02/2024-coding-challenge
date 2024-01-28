@@ -1,3 +1,5 @@
+//DAY 5/366
+
 function boolToWord( bool ){
     if(bool == true)
       {
