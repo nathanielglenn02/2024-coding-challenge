@@ -1,7 +1,7 @@
 //DAY 5/366
 
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-    if(mpg * fuelLeft > distanceToPump)
+    if(mpg * fuelLeft >= distanceToPump)
     {
         return true;
     }
@@ -9,5 +9,7 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
         return false;
     }
   };
+
+  console.log(zeroFuel(50,25,2))
 
 
