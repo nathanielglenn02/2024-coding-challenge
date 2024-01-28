@@ -1,5 +1,5 @@
 //CODING CHALLENGE
-//DAY 1/366
+//TEST CODE DAY-1
 
 // CARA 1
 function grow(x)
