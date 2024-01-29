@@ -12,4 +12,4 @@ const reverseSeq = (n) => {
 
   // const reverseSeq = length => Array.from({length}, () => length--);
 
-console.log(reverseSeq(6));
+console.log(reverseSeq(8));
