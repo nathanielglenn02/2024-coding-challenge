@@ -6,7 +6,7 @@ function countStar(x){
     {
         result += "*";
     }
-    return result
+    return result;
 }
 
-console.log(countStar(5))
+console.log(countStar(5));

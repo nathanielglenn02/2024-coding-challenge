@@ -9,8 +9,8 @@ function howMuchILoveYou(nbPetals) {
       4: "passionately",
       5: "madly",
     }
-    return phrase[nbPetals%6]
+    return phrase[nbPetals%6];
   }
 
 
-console.log(howMuchILoveYou(6))
+console.log(howMuchILoveYou(6));
