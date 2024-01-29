@@ -11,4 +11,4 @@ function simpleMultiplication(number) {
     }
 }
 
-console.log(simpleMultiplication(7))
+console.log(simpleMultiplication(7));
