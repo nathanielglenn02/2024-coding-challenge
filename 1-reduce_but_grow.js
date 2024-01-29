@@ -10,7 +10,7 @@ function grow(x)
         /* result = x[i] * result; */
         result *= x[i];
     }
-    return result;
+    return result
 }
 
 // CARA 2

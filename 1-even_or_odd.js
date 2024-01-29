@@ -10,7 +10,7 @@ function evenOrOdd(x) {
     {
         result = "Even";
     }
-    return result;
+    return result
   }
 
 //   function evenOrOdd(number) {
