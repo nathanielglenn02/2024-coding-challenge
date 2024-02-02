@@ -1,14 +1,23 @@
 // DAY 9/366
 
-
 var min = function(list){
-    
-    return list[0];
+    let minvalue = list[0];
+    for(let i = 1; i < list.length; i ++){
+        if(minvalue > list[i]){
+            minvalue = list[i];
+        }
+    }
+    return minvalue;
 }
 
 var max = function(list){
-    
-    return list[0];
+    let maxvalue = list[0];
+    for(let i = 1; i < list.length; i ++){
+        if(maxvalue < list[i]){
+            maxvalue = list[i];
+        }
+    }
+    return maxvalue;
 }
 
 
